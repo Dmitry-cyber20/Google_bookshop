@@ -1,4 +1,5 @@
-# Google_bookshop - Книжный интернет-магазин на API Google Books
+# Книжный интернет-магазин на API Google Books
+![Логотип проекта](./src/images/screenshot.png)
 ### Иснтрукция для разработки и тестирования
 
 + npm

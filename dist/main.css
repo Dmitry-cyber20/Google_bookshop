@@ -23,7 +23,7 @@ html {
  * Remove the margin in all browsers.
  */
 body {
-  margin: 0 auto;
+  margin: 0;
 }
 
 /**
@@ -330,7 +330,7 @@ body {
 header {
   background-color: #FFF;
   z-index: 10;
-  position: fixed;
+  position: sticky;
   top: 0;
   width: 100%;
 }
@@ -340,9 +340,10 @@ header {
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  height: 90px;
-  background-color: #FFF;
-  width: 96%;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  max-width: 1120px;
+  height: 116px;
 }
 
 .header__logo {
@@ -415,14 +416,8 @@ header {
 .no_activ {
   display: none;
 }
-/* Адаптация*/
 
 @media (max-width: 767px) {
-
-  html, body {
-    /* Убирает прокрутку по горизонтале, для мобильной версии */
-    overflow-x: hidden;
-}
   .header-icons__burger {
     display: block;
     position: relative;
@@ -464,9 +459,9 @@ header {
     position: fixed;
     top: 0;
     right: -100%;
-    width: 470%;
+    width: 30%;
     background-color: rgba(0, 0, 0, 0.7);
-    padding: 110px 15px 10px 10px;
+    padding: 110px 15px 0px 0px;
     transition: right 0.3s ease 0s;
     flex-direction: column;
     align-items: flex-end;
@@ -478,7 +473,7 @@ header {
     width: 100%;
     top: 0;
     right: 0;
-    height: 90px;
+    height: 116px;
     background-color: #FFF;
   }
   .nav-link {
@@ -503,7 +498,6 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 90px;
 }
 
 .slider-box {
@@ -521,11 +515,12 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 98%;
+  width: 1440px;
 }
 
 .slider-content__img {
   width: 100%;
+  max-width: 1120px;
   margin: 0 auto;
   transition: transform 0.3s ease;
   background-size: cover;
@@ -629,9 +624,7 @@ header {
 
 .books-content {
   display: flex;
-  width: 100%;
-  flex-direction: column;
-  align-items: center;
+  width: 1120px;
 }
 
 .books-wrapper {
@@ -639,7 +632,9 @@ header {
 }
 
 .books-categories {
-  width: 98%;
+  width: 416px;
+  height: 710px;
+  margin-left: -160px;
   background-color: #EFEEF6;
   font-family: "Montserrat";
   font-style: normal;
@@ -706,30 +701,29 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 160px;
-  padding-left: 20px;
-  padding-bottom: 20px;
+  width: 176px;
+  padding-left: 36px;
+  padding-bottom: 36px;
 }
 
 .shelf_of_books {
-  width: 100%;
+  width: 924px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
-  align-items: center;
 }
 
 .div_shelf_of_books {
-  margin:0 auto;
+  margin-left: -60px;
+  margin-top: 46px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-top: 60px;
 }
 
 .div_shelf_of_books button {
-  width: 98%;
+  width: 176px;
   height: 45px;
   border: 1px solid #4C3DB2;
   font-family: "Montserrat";
@@ -743,8 +737,8 @@ header {
 }
 
 .div_shelf_of_books > button {
-  margin: 0 auto;
-  margin-bottom: 98px;
+  margin-left: 358px;
+  margin-bottom: 74px;
 }
 
 .shelf_of_books > button {
@@ -753,7 +747,7 @@ header {
 }
 
 .container_descrip {
-  width: 160px;
+  width: 180px;
   height: 40px;
   padding: 2px;
   margin-top: 17px;

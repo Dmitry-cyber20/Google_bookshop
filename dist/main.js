@@ -34,7 +34,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (() => {
 
 // переменные
-const apiKey = "AIzaSyAgffpcGli56crV02vhTEF-it5O5a8HMiU"; // API google key 
+const apiKey = "AIzaSyDD0voh3-eos2F4Up5XMfXKv7c--WPm77o"; // API google key 
 const btnСategory = document.querySelectorAll('.btn-category'); // категории книг 
 const buttonBasket = document.querySelector('.header-icons__bag'); // кнопка корзины 
 const productQuantity = document.querySelector('.header-icons__bag-quantity'); // ярлык кол-ва покупок 
