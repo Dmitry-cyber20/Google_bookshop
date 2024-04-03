@@ -34,7 +34,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (() => {
 
 // переменные
-const apiKey = "AIzaSyAgffpcGli56crV02vhTEF-it5O5a8HMiU"; // API google key 
+const apiKey = "AIzaSyB1XGlFHSfm5Ct_oiHNiRXM2ZpZO_DVFYI"; // API google key 
 const btnСategory = document.querySelectorAll('.btn-category'); // категории книг 
 const buttonBasket = document.querySelector('.header-icons__bag'); // кнопка корзины 
 const productQuantity = document.querySelector('.header-icons__bag-quantity'); // ярлык кол-ва покупок 
@@ -337,15 +337,15 @@ if (burgerMenu) {
 
 const entities = [
     {
-        img: './images/banner1.png',
+        img: 'src/images/banner1.png',
         dot: document.querySelector('.dot-1')
     },
     {
-        img: './images/banner2.png',
+        img: 'src/images/banner2.png',
         dot: document.querySelector('.dot-2'),
     },
     {
-        img: './images/banner3.png',
+        img: 'src/images/banner3.png',
         dot: document.querySelector('.dot-3'),
     }
 ];

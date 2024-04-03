@@ -1,14 +1,14 @@
 const entities = [
     {
-        img: './images/banner1.png',
+        img: 'src/images/banner1.png',
         dot: document.querySelector('.dot-1')
     },
     {
-        img: './images/banner2.png',
+        img: 'src/images/banner2.png',
         dot: document.querySelector('.dot-2'),
     },
     {
-        img: './images/banner3.png',
+        img: 'src/images/banner3.png',
         dot: document.querySelector('.dot-3'),
     }
 ];

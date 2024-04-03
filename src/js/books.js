@@ -1,4 +1,4 @@
-const apiKey = "AIzaSyDD0voh3-eos2F4Up5XMfXKv7c--WPm77o"; // API google key 
+const apiKey = "AIzaSyB1XGlFHSfm5Ct_oiHNiRXM2ZpZO_DVFYI"; // API google key 
 const btnСategory = document.querySelectorAll('.btn-category'); // категории книг 
 const buttonBasket = document.querySelector('.header-icons__bag'); // кнопка корзины 
 const productQuantity = document.querySelector('.header-icons__bag-quantity'); // ярлык кол-ва покупок 
