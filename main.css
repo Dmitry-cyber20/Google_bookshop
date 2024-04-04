@@ -661,7 +661,7 @@ header {
   background: none;
   white-space: nowrap;
 }
-.books-categories ul li:hover, .btn-category, .books-categories ul li:active {
+.books-categories ul li:hover, .books-categories ul li:active {
   color: #1C2A39;
   font-family: Montserrat;
   font-size: 16px;
@@ -670,7 +670,7 @@ header {
   line-height: normal;
   text-transform: capitalize;
 }
-.books-categories ul li:hover::before, .btn-category, .books-categories ul li:active::before {
+.books-categories ul li:hover::before, .books-categories ul li:active::before {
   content: "•";
   color: #756AD3;
   position: absolute;
