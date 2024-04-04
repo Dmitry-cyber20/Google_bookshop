@@ -418,6 +418,14 @@ header {
 }
 
 @media (max-width: 767px) {
+.header {
+width: 100%;
+height: 60px;
+padding-top: 20px;
+background: none;
+}
+
+
   .header-icons__burger {
     display: block;
     position: relative;
@@ -470,11 +478,10 @@ header {
   .nav::before {
     content: "";
     position: fixed;
-    width: 100%;
+    width: auto;
     top: 0;
     right: 0;
     height: 116px;
-    background-color: #FFF;
   }
   .nav-link {
     text-transform: uppercase;
@@ -848,5 +855,59 @@ a:active {
 .empty-star {
   background-image: url(b7733d7fef79909394bf.svg);
 }
+
+
+/*мобильная адаптация*/
+
+@media screen and (max-width: 767px){
+
+  .slider-content__traidin {
+    position: absolute;
+    top: 79px;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    width: 137px;
+}
+.books-content{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+.books-categories {
+  width: 90%;
+  margin: 0 auto;
+  height: auto;
+}
+.div_shelf_of_books{
+  width: auto;
+  margin: 0 auto;
+  padding-top: 90px;
+}
+.shelf_of_books {
+  width: 96%;
+  margin: 0 auto;
+  justify-content: center;
+}
+.load_more{
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 90px;
+}
+.description{
+    padding-left: 16px
+}
+.image_book{
+  width: 200px;
+    height: 300px;
+}
+.div_shelf_of_books > button{
+  margin: 0 auto;
+    width: 90%;
+    margin-bottom: 90px;
+}
+
+
 
 /*# sourceMappingURL=main.css.map*/
